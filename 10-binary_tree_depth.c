@@ -2,10 +2,8 @@
 
 /**
  * binary_tree_depth - calculate levels from parent
- * 
  * Description: This is a function that measures the depth
  * of a node in a binary tree
- * 
  * @node: node
  * Return: levels node is from parent
  */
