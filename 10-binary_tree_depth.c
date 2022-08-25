@@ -11,13 +11,11 @@
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
-	size_t depth;
+	if (!node)
+		return (0);
 
-	depth = 0;
-	if (tree == NULL)
-		return (depth);
+	if (node && (node->parent))
+		return (1 + binary_tree_depth(node->parent));
 
-	for (; tree->parent != NULL; depth++)
-		tree = tree->parent;
-	return (depth);
+	return (0);
 }
