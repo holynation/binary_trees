@@ -15,7 +15,7 @@ size_t is_leaf(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_leaves - calculate total leaves
+ * binary_tree_leaves - This is to calculate total leaves
  * @tree: node
  * Return: total leaves
  */
