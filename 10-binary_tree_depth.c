@@ -9,13 +9,13 @@
  * @node: node
  * Return: levels node is from parent
  */
-size_t binary_tree_depth(const binary_tree_t *node)
+size_t binary_tree_depth(const binary_tree_t *tree)
 {
-	if (!node)
+	if (!tree)
 		return (0);
 
-	if (node && (node->parent))
-		return (1 + binary_tree_depth(node->parent));
+	if (tree && (tree->parent))
+		return (1 + binary_tree_depth(tree->parent));
 
 	return (0);
 }
