@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+
 /**
  * is_leaf - check if no children
  * @tree: node
